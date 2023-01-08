@@ -1,10 +1,10 @@
 {
 	"nft_contract_address": { 
-		"index": 2433, 
+		"index": 2440, 
 		"subindex": 0 
 	},
-	"token_id": "01",
+	"token_id": "02",
 	"price": "10",
 	"royalty": 100,
-	"quantity": "10"
+	"quantity": "100"
 }
