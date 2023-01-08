@@ -42,7 +42,8 @@ const slidermainparticle= () => (
               </Reveal>
               <div className="spacer-10"></div>
               <Reveal className='onStep d-inline' keyframes={inline} delay={800} duration={900} triggerOnce>
-              <span onClick={()=> window.open("#", "_self")} className="btn-main inline lead">Explore</span>
+              <span onClick={()=> window.open("/explore2Grey", "_self")} className="btn-main inline lead">Explore</span>
+              <span onClick={()=> window.open("#", "_self")} className="btn-main inline white lead">Create</span>
               <div className="mb-sm-30"></div>
               </Reveal>
 
