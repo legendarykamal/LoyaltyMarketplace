@@ -88,7 +88,7 @@ const homeone= () => (
         <div className='row'>
           <div className='col-lg-12'>
             <div className='text-center'>
-              <h2>Top Sellers</h2>
+              <h2>Top Personalities</h2>
               <div className="small-border"></div>
             </div>
           </div>

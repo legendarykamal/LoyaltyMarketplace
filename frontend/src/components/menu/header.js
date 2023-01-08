@@ -115,11 +115,13 @@ const Header = function ({ className }) {
                   alt="#"
                 />
                 <img src="/img/logo-2.png" className="img-fluid d-3" alt="#" />
-                <img src="/img/logo-3.png" className="img-fluid d-4" alt="#" />
+                <img src="/img/cw.png" className="img-fluid d-4" alt="#" height="30%" width="30%" />
                 <img
-                  src="/img/logo-light.png"
+                  src="/img/cw.png"
                   className="img-fluid d-none"
                   alt="#"
+                  height= "10%"
+                  width= "40%"
                 />
               </NavLink>
             </div>
@@ -487,7 +489,7 @@ const Header = function ({ className }) {
                 {showpop && (
                   <div className="popshow">
                     <div className="d-name">
-                      <h4>Monica Lucas</h4>
+                      <h4>Mithali Raj</h4>
                       <span
                         className="name"
                         onClick={() => window.open("", "_self")}
