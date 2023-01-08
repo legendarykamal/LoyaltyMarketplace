@@ -7,6 +7,10 @@ All industries across the board have seen less number of female participants ove
 - Concordium
 - IPFS (for hosting our NFT)
 
+## Demo
+
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=djl0r1m-xXs "CELEBRATING WOMEN")
+
 ## Working
 
 Concordium wallet is used to ensure only the real MVPs are the ones who are allowed to mint collectible in our marketplace. The minting of the collectibles are done by the `cis2-multi` set of contracts and the list of tokens can be seen in the following format.
