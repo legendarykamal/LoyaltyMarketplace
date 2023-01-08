@@ -1,4 +1,9 @@
 import React from "react";
+import {
+	detectConcordiumProvider,
+	WalletApi,
+} from "@concordium/browser-wallet-api-helpers";
+import { ContractAddress } from "@concordium/web-sdk";
 import { Router, Location, Redirect } from "@reach/router";
 import ScrollToTopBtn from "./menu/ScrollToTop";
 import Header from "./menu/header";
@@ -62,7 +67,53 @@ import Tabs from "./pages/tabs";
 import Minter from "./pages/Minter";
 import Mintergrey from "./pages/MinterGrey";
 
+
 import { createGlobalStyle } from "styled-components";
+
+
+
+function connect() {
+  detectConcordiumProvider()
+    .then((provider) => {
+      provider
+        .getMostRecentlySelectedAccount()
+        .then((account) =>
+          !!account ? Promise.resolve(account) : provider.connect()
+        )
+        .then((account) => {
+          setState({ ...state, provider, account });
+        })
+        .catch((_) => {
+          alert("Please allow wallet connection");
+        });
+      provider.on("accountDisconnected", () => {
+        setState({ ...state, account: undefined });
+      });
+      provider.on("accountChanged", (account) => {
+        setState({ ...state, account });
+      });
+      provider.on("chainChanged", () => {
+        setState({ ...state, account: undefined, provider: undefined });
+      });
+    })
+    .catch((_) => {
+      console.error(`could not find provider`);
+      alert("Please download Concordium Wallet");
+    });
+}
+
+useEffect(() => {
+  if (state.provider && state.account) {
+    return;
+  }
+
+  connect();
+  return () => {
+    state.provider?.removeAllListeners();
+  };
+}, [state.account]);
+
+
 
 const GlobalStyles = createGlobalStyle`
   :root {
@@ -88,6 +139,7 @@ const PosedRouter = ({ children }) => (
 );
 
 const app = () => (
+  
   <div className="wraper">
     <GlobalStyles />
     <Header />
@@ -96,6 +148,7 @@ const app = () => (
         <Home1 exact path="/">
           <Redirect to="/home" />
         </Home1>
+        {/* <BuyPage path="/buy" /> */}
         <HomeGrey path="/homeGrey" />
         <Home1 path="/home1" />
         <Home1grey path="/home1Grey" />
