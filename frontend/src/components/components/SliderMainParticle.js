@@ -37,7 +37,7 @@ const slidermainparticle= () => (
               </Reveal>
               <Reveal className='onStep' keyframes={fadeInUp} delay={600} duration={900} triggerOnce>
               <p className="lead col-white">
-              Unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable
+                Honoring the achievements and successes of women, one collectible at a time.
               </p>
               </Reveal>
               <div className="spacer-10"></div>
