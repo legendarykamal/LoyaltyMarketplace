@@ -84,9 +84,10 @@ return (
             </div>
           </div>
         </div>
+        {/* on sale */}
       {openMenu && (  
         <div id='zero1' className='onStep fadeIn'>
-          <ColumnNewRedux shuffle showLoadMore={false} authorId={hotCollections.author ? hotCollections.author.id : 1} />
+          <ColumnNewRedux  showLoadMore={true} authorId={hotCollections.author ? hotCollections.author.id : 1} />
         </div>
       )}
       {openMenu1 && ( 
