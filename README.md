@@ -11,3 +11,7 @@ The collectibles are transferable so that new fans do not face any entry barrier
 <img width="699" alt="image" src="https://user-images.githubusercontent.com/49894180/211188518-741e66bc-dc09-45ca-a019-0864e4ffa8c4.png">
 
 These tokens when minted are listed in the market place contract and are for the fans to buy and start supporting. A reward system is embedded to it with which we can gain rewards. These rewards can vary from merch or a live wrokshop with these leaders. The rewards are decided based on how many tokens are bought by the fans.
+
+For the market place, the code is present in the `marketplace-contract` directory. Once we have successfully added our collectibles to the market, they are listed like below.
+
+<img width="765" alt="image" src="https://user-images.githubusercontent.com/49894180/211189366-e7aa7289-c548-4c35-8866-60568ee73ad6.png">
