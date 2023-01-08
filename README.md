@@ -9,7 +9,7 @@ All industries across the board have seen less number of female participants ove
 
 ## Demo
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=djl0r1m-xXs "CELEBRATING WOMEN")
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://youtu.be/nrz4gYnOyaM "CELEBRATING WOMEN")
 
 ## Working
 
