@@ -1,0 +1,19 @@
+{
+    "owner": {
+        "Account": [
+            "336CKaSSfE4hU2WLo8srdq3uMgvnH7oiP97Az9kvJVUY5cr2NH"
+        ]
+    },
+    "tokens": [
+        [
+            "02",
+            [
+                {
+                    "url": "https://gateway.pinata.cloud/ipfs/QmZ3939dLLFzvYZjFnkdqACe2n9TQA8Rx4efbjaYTXteeu",
+                    "hash": "f982b4603b9c116598d381d1aee90a7b5332377b209b6bbd8d7a4dfab18f2a80"
+                },
+                "1000"
+            ]
+        ]
+    ]
+}
