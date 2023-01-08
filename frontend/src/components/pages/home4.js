@@ -66,7 +66,7 @@ const home= () => (
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-                <h2>Top Sellers</h2>
+                <h2>Top Personalities</h2>
             </div>
             <div className='col-lg-12'>
               <AuthorListRedux/>

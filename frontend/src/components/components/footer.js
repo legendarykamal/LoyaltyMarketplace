@@ -70,19 +70,16 @@ const footer= () => (
                             <div className="de-flex">
                                 <div className="de-flex-col">
                                     <span onClick={()=> window.open("", "_self")}>
-                                        <img alt="" className="f-logo d-1" src="./img/logo.png" />
+                                        <img src="/img/logo-3.png" className="f-logo d-1" alt="#" height= "20%" width="20%" />
                                         <img alt="" className="f-logo d-3" src="./img/logo-2-light.png" />
-                                        <img alt="" className="f-logo d-4" src="./img/logo-3.png" />
-                                        <span className="copy">&copy; Copyright 2021 - Gigaland by Designesia</span>
+                                        <img alt="" className="f-logo d-4" src="./img/cw.png" height= "20%" width="20%" />
+                                        <span className="copy">&copy; Copyright 2023 - Made with 💖 by NFT Innovators </span>
                                     </span>
                                 </div>
                                 <div className="de-flex-col">
                                     <div className="social-icons">
-                                        <span onClick={()=> window.open("", "_self")}><i className="fa fa-facebook fa-lg"></i></span>
-                                        <span onClick={()=> window.open("", "_self")}><i className="fa fa-twitter fa-lg"></i></span>
+                                        <span onClick={()=> window.open("https://twitter.com/0xkamal7", "_self")}><i className="fa fa-twitter fa-lg"></i></span>
                                         <span onClick={()=> window.open("", "_self")}><i className="fa fa-linkedin fa-lg"></i></span>
-                                        <span onClick={()=> window.open("", "_self")}><i className="fa fa-pinterest fa-lg"></i></span>
-                                        <span onClick={()=> window.open("", "_self")}><i className="fa fa-rss fa-lg"></i></span>
                                     </div>
                                 </div>
                             </div>
