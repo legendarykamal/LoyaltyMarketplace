@@ -1,11 +1,9 @@
-//! Marketplace Contract
+//! Marketplace Contract for Celebrating women 
 //! This module provides implementation of the marketplace contract.
 //! Marketplace Contract provides following functions
 //! - `list` : returns a list of buyable tokens added to the contract instance.
 //! - `add` : adds the token to the list of buyable tokens taking the price of the token as input.
 //! - `transfer` : transfer the authority of the input listed token from one address to another.
-//! 
-//! This code has not been checked for production readiness. Please use for reference purposes
 mod cis2_client;
 mod errors;
 mod params;

@@ -5,8 +5,14 @@
   "homepage": "./",
   "dependencies": {
     "@alch/alchemy-web3": "^1.1.8",
+    "@concordium/browser-wallet-api-helpers": "2.0.0",
+    "@concordium/web-sdk": "3.0.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.3",
     "@reach/router": "^1.3.4",
     "@tim-soft/react-spring-web": "^9.0.0-beta.36",
+    "@types/react": "^18.0.18",
     "axios": "^0.23.0",
     "bignumber.js": "^9.0.2",
     "bootstrap": "^5.1.1",
@@ -38,6 +44,7 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.1",
     "typesafe-actions": "^5.1.0",
+    "typescript": "^4.8.2",
     "web-vitals": "^2.1.0",
     "web3": "^1.6.1"
   },
